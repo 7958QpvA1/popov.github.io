@@ -1,0 +1,37 @@
+/* adaptive */
+
+
+@media only screen and (max-width: 850px) {
+    header {
+        height: 280px;
+    }
+
+    header .header-text {
+        font-size: 15px;
+    }
+
+    header .header-undertext {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    header {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    main img:hover {
+        transform: none;
+    }
+    .contact-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .contact-body ._option {
+        font-size: 21px;
+    }
+}
